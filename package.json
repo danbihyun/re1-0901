@@ -2,8 +2,10 @@
   "name": "re1-0901",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://danbihyun.github.io/rel-0901",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,11 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "babel-loader": "^10.0.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.4",
     "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1",
